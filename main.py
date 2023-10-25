@@ -23,7 +23,7 @@ def main():
             print("Your password has been encoded and stored!")
 
         elif menu_option == '2':
-            pass
+            print(f"The encoded password is {encoded_password}, and the original password is {og_password}.")
         elif menu_option == '3':
             continue_menu = False
 
